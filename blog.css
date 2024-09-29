@@ -1,0 +1,24 @@
+body{
+  background-color:lightseagreen ;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+.blog{
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-image: url(./images/Travel.jpg);
+    background-size: cover;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h1{
+    margin-top: 15px;
+    background-color: green; COLOR:#FFF; padding:10px;
+    text-align: center;
+}
+  

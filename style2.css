@@ -1,0 +1,34 @@
+body{
+    background-image: url(./images/trekking-hiking-group-alpine-53214.jpeg);
+    background-size: cover;
+}
+h1{
+    background-color: #333; COLOR:#FFF; padding:10px;
+    text-align: center;
+}
+.image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+figure:hover{
+    transform: scale(1.5);
+    transition: transform 0.5s;
+}
+figure{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+figcaption{
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+    text-align: center;
+}
+p{
+    background: none;
+}

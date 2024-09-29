@@ -1,0 +1,41 @@
+body{
+  background-color:lightgreen;
+}
+article{
+    color: black;
+    font-size: large;
+    font-family: Georgia;
+    border: 1px solid black;
+    padding: 5px;
+    margin:10px;
+}
+h1{
+  top: 0;
+  left: 0;
+  width: 99%;
+  height: 300px;
+  margin: 0px;
+  COLOR: green; padding:10px;
+  text-align: center;
+  background-image: url(./images/Destinations_Page_Banner.jpg);
+  background-size: cover ;
+}
+nav a {
+  color: green;
+  text-decoration: none;
+}
+div{
+  color: black;
+    font-size: large;
+    font-family: Georgia;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 5px;
+}
+div li{
+  list-style-type: none;
+}

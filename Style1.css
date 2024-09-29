@@ -1,0 +1,96 @@
+body{
+  background-image: url(./images/pexels-jessbaileydesign-743986.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+nav ul {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 96%;
+  margin: 10px;
+  padding: 50;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: black;
+  font-size: large;
+  border: 2px solid black;
+}
+nav li {
+  margin-right: 100px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+header{
+  border: 2px solid black;
+  margin: 10px;
+  padding: 20px;
+  background-image: none;
+  color: black;
+  background-size: cover;
+  font-family: Georgia;
+  font-weight: bold;
+}
+
+#External{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style-type: none;
+}
+figcaption{
+  text-align: center;
+}
+
+#head,#head2{
+  text-align: center;
+}
+#head{
+  text-decoration: underline;
+  color: green;
+  font-style: italic;
+  font-family: cursive;
+  font-weight: bolder;
+}
+#about-me{
+  border: 2px solid black;
+  margin: 10px;
+  padding: 10px;
+  font-weight: bold;
+  font-family: Georgia;
+  background-color: azure;
+  background-image: url(./images/form2.jfif);
+  background-size:cover;
+}
+#about-me h2{
+  text-align: center;
+  font-family: cursive;
+  font-weight: bold;
+}
+/*Form-section*/
+form{
+  border: 2px solid black;
+  margin: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  background-image: url(./images/Form.avif);
+}
+#contact-me{
+  text-align: center;
+}
+.contact{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+footer{
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+}
